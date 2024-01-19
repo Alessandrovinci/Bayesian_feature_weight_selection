@@ -18,7 +18,7 @@ The idea is to use a generative process like this:
 From the results obtained, it is possible to use the mean of each feature to rank them based on their importance for the Interesting alerts.
 Moreover, the standard deviation can be used to understand how confident is the estimation of the mean.
 
-To conclude, given the rank of the feature it is possible to pick the weights for each variable based on our domain knowledge and the rank displayed, or by using indicators like the modal value and the mean itself.
+Lastly, given the rank of the feature it is possible to pick the weights for each variable based on our domain knowledge and the rank displayed, or by using indicators like the modal value and the mean itself.
 
 Thanks :)
 
