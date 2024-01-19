@@ -8,7 +8,7 @@ The rank defined by the Bayesian model can indeed be used to assign weights to e
 
 The idea is to use a generative process like this: 
 
-- Start from a small manually reviewed database where all the alerts are flagged as "Interesting" or "Not Interesting". (This is done in order to ensure that the model is actually trained on clean data.
+- Start from a small manually reviewed database where all the alerts are flagged as "Interesting" or "Not Interesting". This is done in order to ensure that the model is actually trained on clean data.
 - Set all the weights of the features to be equal.
 - Define prior probabilities for each feature using a truncated normal distribution where the lower and upper limits are respectively 0 and 1.
 - Use Markov Chains to simulate the distributions based on the prior probabilities.
